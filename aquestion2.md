@@ -14,7 +14,7 @@ corresponding to individual nucleotide bases.
 - stop_codon='TAG'
 - three_prime_UTR='AAAATTAAAAAAAAAAA'
 
-my_fav_gene= promoter + five_prime_UTR + start_codon + exon1 + \
+- my_fav_gene= promoter + five_prime_UTR + start_codon + exon1 + \
              intron + exon2 + stop_codon + three_prime_UTR
              
 print('My favorite gene sequence is as follows:')
