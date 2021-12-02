@@ -7,13 +7,13 @@ promoter, 5' UTR, start codon, exon1, intron, exon2, stop codon, 3' UTR). Print 
 
 
 star_codon ='AUG'
-treonin+glutamat = 'ACGGAG'
--stop_codon ='UAA' or 'UAG'
+glutamat = 'ACGGAG'
+a_stop_codon ='UAA' or 'UAG'
 aspartic_acid = 'GAU' or 'GAC'
 binding_site = 'GGCCAATCT'
-1_mutation = 'AAATTGCTGACGTTTCGATT'
-exon1 :'AGT' + 'ATT'
+b_mutation = 'AAATTGCTGACGTTTCGATT'
+exon1 = 'AGT' + 'ATT'
 
-my_fav_gene = (star_codon + stop_codon + aspartic_acid + binding_site + 1_mutation + treonin+glutamat)
+my_fav_gene = (star_codon + a_stop_codon + aspartic_acid + binding_site + b_mutation + glutamat)
 
-print= ('My favourite gene sequences is as follows:' + ' ' + my_fav_gene)
+print ('My favourite gene sequences is as follows:' + ' ' + my_fav_gene)
