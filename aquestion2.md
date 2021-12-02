@@ -18,5 +18,5 @@ corresponding to individual nucleotide bases.
              intron + exon2 + stop_codon + three_prime_UTR
              
 print('My favorite gene sequence is as follows:')
+
 print(my_fav_gene)
-......
