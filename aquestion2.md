@@ -5,14 +5,14 @@ fictional gene sequence by randomly filling in the gene components by the charac
 corresponding to individual nucleotide bases.
 
 ....
-promoter='TATTTAAATTAAAAATT'
-five_prime_UTR='GTAATGTTGGGGAAAA'
-start_codon='ATG'
-exon1='ATCCCGGGTTCGAACTG'
-intron='AATTTTTAAGGGGGAAAAA'
-exon2='GCATTAGTCCAATGAAG'
-stop_codon='TAG'
-three_prime_UTR='AAAATTAAAAAAAAAAA'
+- promoter='TATTTAAATTAAAAATT'
+- five_prime_UTR='GTAATGTTGGGGAAAA'
+- start_codon='ATG'
+- exon1='ATCCCGGGTTCGAACTG'
+- intron='AATTTTTAAGGGGGAAAAA'
+- exon2='GCATTAGTCCAATGAAG'
+- stop_codon='TAG'
+- three_prime_UTR='AAAATTAAAAAAAAAAA'
 
 my_fav_gene= promoter + five_prime_UTR + start_codon + exon1 + \
              intron + exon2 + stop_codon + three_prime_UTR
